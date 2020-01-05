@@ -15,28 +15,37 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
-
-
+const convertNum = (num1) => num1.toString();
+console.log(convertNum(45));
 
 // Write a JavaScript program to convert a string to the number.
 
-
+const convertStr = (str1) => parseInt(str1, 10);
+console.log(convertStr('454'));
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
+  console.log('typeof true', typeof true);
   // * Null
+  console.log('typeof null', typeof null);
   // * Undefined
+  console.log('typeof myVar', typeof myVar);
   // * Number
+  console.log('typeof 3.14', typeof 3.14);
   // * NaN
+  console.log('typeof NaN', typeof NaN);
   // * String
+  console.log('typeof "HelloWorld"', typeof "HelloWorld");
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
-
-
+const sum = (num1,num2) => num1 + num2;
+console.log(sum(9,12));
 
 // Write a JavaScript program that runs only when 2 things are true.
+const soTrue = true;
+const soFalse = false;
 
 
 
